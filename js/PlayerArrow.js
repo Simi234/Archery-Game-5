@@ -19,11 +19,11 @@ class PlayerArrow {
     delete playerArrows[index];
   } */
 
-  /* remove(index) {
+  remove(index) {
     this.isRemoved = true;
     Matter.World.remove(world, this.body);
     delete playerArrows[index];
-  } */
+  }
 
   /* remove(index) {
     this.isRemoved = true;
@@ -31,11 +31,11 @@ class PlayerArrow {
     delete playerArrows[index];
   } */
 
-   remove(index) {
+   /*remove(index) {
     this.isRemoved = true;
     Matter.World.remove(world, this.body);
     delete playerArrows[i];
-  } 
+  } */
 
   shoot(archerAngle) {
     this.velocity = p5.Vector.fromAngle(archerAngle + PI / 2);
